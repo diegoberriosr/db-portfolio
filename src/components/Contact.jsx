@@ -19,11 +19,11 @@ const Contact = ({ contactTranslations }) => {
         <MdOutlineMail className='text-3xl'/>
       </h2>
       <div className='flex justify-between mt-5 mb-5'>
-        <div className='w-[82.5%] bg-white/5 text-slate-200 text-lg rounded-lg px-3 py-1.5'>rberriosdiego@gmail.com</div>
-        <button className='px-5 py-2.5 bg-purple-500 rounded-lg border-purple-700 border-2 border-b-[4px] hover:border-b-[3.5px] border-b-2 hover:bg-opacity-90' onClick={handleSendMail}>
+        <div className='w-[75%] sm:w-[82.5%] bg-white/5 text-slate-200 text-lg rounded-lg px-3 py-1.5'>rberriosdiego@gmail.com</div>
+        <button className='px-2.5 py-1 sm:px-5 sm:py-2.5 bg-purple-500 rounded-lg border-purple-700 border-2 border-b-[4px] hover:border-b-[3.5px] border-b-2 hover:bg-opacity-90' onClick={handleSendMail}>
           <LuSendHorizonal/>
         </button>
-        <button className='px-5 py-2.5 bg-purple-500 rounded-lg border-purple-700 border-2 border-b-[4px] hover:border-b-[3.5px] active:border-b-0 hover:bg-opacity-90' onClick={handleCopyEmail}>
+        <button className='px-2.5 py-1 sm:px-5 sm:py-2.5 bg-purple-500 rounded-lg border-purple-700 border-2 border-b-[4px] hover:border-b-[3.5px] active:border-b-0 hover:bg-opacity-90' onClick={handleCopyEmail}>
           <FaRegCopy/>  
         </button>  
       </div>

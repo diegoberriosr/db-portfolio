@@ -6,7 +6,6 @@ import { FaPython } from "react-icons/fa";
 import { SiDjango } from "react-icons/si";
 import { SiDart } from "react-icons/si";
 import { SiFlutter } from "react-icons/si";
-import { SiCplusplus } from "react-icons/si";
 
 const BELLR = {
     type : 'FULL STACK',
