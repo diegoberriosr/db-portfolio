@@ -39,7 +39,7 @@ const BELLR = {
       }      
     ],
     liveDemo : 'sl;sdl;s',
-    githubRepo : ''
+    githubRepo : 'https://github.com/diegoberriosr/Bellr'
 };
 
 const VESTNIK = {
@@ -74,7 +74,7 @@ const VESTNIK = {
       }
     ],
     liveDemo : 'sl;sdl;s',
-    githubRepo : ''
+    githubRepo : 'https://github.com/diegoberriosr/Vestnik'
 };
 
 const BELLR_MOBILE = {
@@ -97,7 +97,7 @@ const BELLR_MOBILE = {
       }
     ],
     liveDemo : null,
-    githubRepo : ''
+    githubRepo : 'https://github.com/diegoberriosr/Bellr-Mobile'
 };
 
 
