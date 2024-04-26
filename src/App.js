@@ -11,11 +11,12 @@ import { TRANSLATIONS } from './languages/translation';
 function App() {
   const [activeLanguage, setActiveLanguage] = useState('german');
   const translation = TRANSLATIONS[activeLanguage];
+
   return (
     <div className='w-full md:w-10/12 xl:w-6/12 sm:mx-auto pt-16 bg-gray-800 px-2.5'>
-      <Navbar activeLanguage={translation} setActiveLanguage={setActiveLanguage}/>
+      <Navbar language={activeLanguage} activeLanguage={translation} setActiveLanguage={setActiveLanguage}/>
       <Header headerTranslations={translation.header}/>
-      <Projects projectsTranslations={translation.body.projects}/>
+      <Projects activeLanguage={activeLanguage} projectsTranslations={translation.body.projects}/>
       <Skills skillsTranslations={translation.body.skills}/>
       <Contact contactTranslations={translation.contact}/>
     </div>

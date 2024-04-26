@@ -8,10 +8,14 @@ export const TRANSLATIONS = {
         flag : SpanishFlag,
         header : {
             title : 'Hola, soy Diego',
-            subtitle : 'Soy desarrollador web'
+            subtitle : 'Soy desarrollador web',
+            cv : 'CV'
         },
         body : {
-            projects : 'Proyectos',
+            projects : {
+                title: 'Proyectos',
+                live : 'Visitar'
+            },
             skills : 'Habilidades',
         },
         contact : 'Contáctame'
@@ -20,10 +24,14 @@ export const TRANSLATIONS = {
         flag : EnglishFlag,
         header : {
             title : "Hi, I'm Diego",
-            subtitle : "I'm a web developer"
+            subtitle : "I'm a web developer",
+            cv : 'Resume'
         },
         body : {
-            projects : 'Projects',
+            projects : {
+                title: 'Projects',
+                live : 'Live demo'
+            },
             skills : 'Skills',
         },
         contact : 'Contact me'
@@ -32,12 +40,16 @@ export const TRANSLATIONS = {
         flag : GermanFlag,
         header : {
             title : 'Hallo, ich bin Diego',
-            subtitle : 'Ich bin Web Entwickler'
+            subtitle : 'Ich bin Web Entwickler',
+            cv : 'Lebenslauf'
         },
         body : {
-            projects : 'Projekte',
+            projects : {
+                title: 'Projekte',
+                live : 'Besuchen'
+            },
             skills : 'Fähigkeiten',
         },
-        contact : 'Kotaktieren Sie mir'
+        contact : 'Kotaktieren Sie mich'
     }
 }

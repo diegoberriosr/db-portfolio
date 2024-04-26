@@ -9,8 +9,8 @@ const Skills = ({ skillsTranslations }) => {
         <span>{skillsTranslations}</span>
         <PiGraphLight/>
       </h2>
-      <ul className='grid grid-cols-3 sm:grid-cols-4 gap-2.5 pt-5'>
-        { SKILLS.map( skill => <SkillButton color={skill.color} title={skill.title} icon={skill.icon}/>)}
+      <ul className='grid grid-cols-3 sm:grid-cols-4 md:w-10/12 mx-auto gap-2.5 pt-10'>
+        { SKILLS.map( skill => <SkillButton key={skill.title} color={skill.color} title={skill.title} icon={skill.icon}/>)}
       </ul>
     </div>
   )

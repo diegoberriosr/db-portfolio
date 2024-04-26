@@ -10,9 +10,34 @@ import { SiFlutter } from "react-icons/si";
 const BELLR = {
     type : 'FULL STACK',
     title : 'Bellr',
-    description : 'A twitter clone.',
+    description : {
+      english : 'A Twitter clone',
+      spanish : 'Un clon de Twitter',
+      german : 'Ein Twitter clone'
+    },
     image:'https://www.labnol.org/images/2023/110136.png',
-    technologies : [],
+    technologies : [
+      {
+        title : 'Python',
+        icon : "https://devicon-website.vercel.app/api/python/original.svg"
+      },
+      {
+        title : 'Django',
+        icon : "https://devicon-website.vercel.app/api/django/plain.svg"
+      },
+      {
+        title : 'React',
+        icon : "https://devicon-website.vercel.app/api/react/original.svg"
+      },
+      {
+        title : 'Tailwind',
+        icon : "https://devicon-website.vercel.app/api/tailwindcss/plain.svg"
+      },
+      {
+        title : 'AWS',
+        icon : "https://devicon-website.vercel.app/api/amazonwebservices/original.svg"
+      }      
+    ],
     liveDemo : 'sl;sdl;s',
     githubRepo : ''
 };
@@ -20,9 +45,34 @@ const BELLR = {
 const VESTNIK = {
     type : 'FULL STACK',
     title : 'Vestnik',
-    description : 'A real time messaging app.',
+    description : {
+      english : 'A real time messaging app.',
+      spanish : 'App de chat en tiempo real.',
+      german : 'Real-time Nachrichten App.'
+    },
     image:'https://www.labnol.org/images/2023/110136.png',
-    technologies : [],
+    technologies : [
+      {
+        title : 'Python',
+        icon : "https://devicon-website.vercel.app/api/python/original.svg"
+      },
+      {
+        title : 'Django',
+        icon : "https://devicon-website.vercel.app/api/django/plain.svg"
+      },
+      {
+        title : 'React',
+        icon : "https://devicon-website.vercel.app/api/react/original.svg"
+      },
+      {
+        title : 'Tailwind',
+        icon : "https://devicon-website.vercel.app/api/tailwindcss/plain.svg"
+      },
+      {
+        title : 'AWS',
+        icon : "https://devicon-website.vercel.app/api/amazonwebservices/original.svg"
+      }
+    ],
     liveDemo : 'sl;sdl;s',
     githubRepo : ''
 };
@@ -30,10 +80,23 @@ const VESTNIK = {
 const BELLR_MOBILE = {
     type : 'MOBILE',
     title : 'Bellr Mobile',
-    description : 'A twitter clone.',
+    description : {
+      english : "Bellr's mobile version app.",
+      spanish : 'La versión mobile de Bellr.',
+      german : 'Bellrs mobile app.'
+    },
     image:'https://www.labnol.org/images/2023/110136.png',
-    technologies : [],
-    liveDemo : 'sl;sdl;s',
+    technologies : [
+      {
+        title : 'Dart',
+        icon : "https://devicon-website.vercel.app/api/dart/original.svg"
+      },
+      {
+        title : 'Flutter',
+        icon : "https://devicon-website.vercel.app/api/flutter/original.svg"
+      }
+    ],
+    liveDemo : null,
     githubRepo : ''
 };
 

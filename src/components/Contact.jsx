@@ -13,7 +13,7 @@ const Contact = ({ contactTranslations }) => {
   }
 
   return (
-    <footer className='w-full text-white pt-10'>
+    <footer className='w-full text-white pt-16'>
       <h2 className='text-2xl flex items-center space-x-2.5 font-bold'>
         <span>{contactTranslations}</span>
         <MdOutlineMail className='text-3xl'/>
