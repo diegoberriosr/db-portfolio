@@ -8,11 +8,11 @@ import { SiDart } from "react-icons/si";
 import { SiFlutter } from "react-icons/si";
 
 const BELLR = {
-    type : 'FULL STACK',
+    type : 'Full-stack',
     title : 'Bellr',
     description : {
-      english : 'A Twitter clone',
-      spanish : 'Un clon de Twitter',
+      english : 'A full-stack Twitter clone.',
+      spanish : 'Un clon full-stack de Twitter.',
       german : 'Ein Twitter clone'
     },
     image:'https://www.labnol.org/images/2023/110136.png',
@@ -43,7 +43,7 @@ const BELLR = {
 };
 
 const VESTNIK = {
-    type : 'FULL STACK',
+    type : 'Full-stack',
     title : 'Vestnik',
     description : {
       english : 'A real time messaging app.',
@@ -78,7 +78,7 @@ const VESTNIK = {
 };
 
 const BELLR_MOBILE = {
-    type : 'MOBILE',
+    type : 'Mobile',
     title : 'Bellr Mobile',
     description : {
       english : "Bellr's mobile version app.",
@@ -105,42 +105,50 @@ export const SKILLS = [
     {
       title: 'Javascript',
       color: 'bg-yellow-500 border-yellow-700',
-      icon: <IoLogoJavascript/>
+      icon: <IoLogoJavascript/>,
+      type : 'Front-end'
     },
     {
       title: 'HTML',
       color : 'bg-orange-500 border-orange-700',
-      icon: <FaHtml5/>
+      icon: <FaHtml5/>,
+      type : 'Front-end',
     },
     {
         title: 'CSS',
         color : 'bg-blue-500 border-blue-700',
-        icon: <FaCss3Alt/>
+        icon: <FaCss3Alt/>,
+        type : 'Front-end'
     },
     {
         title: 'React',
         color : 'bg-sky-300 border-indigo-500',
-        icon: <FaReact/>
+        icon: <FaReact/>,
+        type : 'Front-end',
       },
       {
         title: 'Python',
         color : 'bg-yellow-600 border-yellow-800',
-        icon: <FaPython/>
+        icon: <FaPython/>,
+        type : 'Back-end'
       },
       {
         title: 'Django',
         color : 'bg-green-700 border-green-900',
-        icon: <SiDjango/>
+        icon: <SiDjango/>,
+        type : 'Back-end'
       },
       {
         title: 'Dart',
         color : 'bg-teal-500 border-teal-700',
-        icon: <SiDart/>
+        icon: <SiDart/>,
+        type :'Mobile'
       },
       {
         title: 'Flutter',
         color : 'bg-sky-500 border-sky-700',
-        icon: <SiFlutter/>
+        icon: <SiFlutter/>,
+        type : 'Mobile'
       },
 ]
 export const PROJECTS = [BELLR, VESTNIK, BELLR_MOBILE]

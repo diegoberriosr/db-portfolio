@@ -11,8 +11,8 @@ const Project = ({activeLanguage, project, liveButtonTranslation}) => {
       <figure className='w-full md:w-5/12 h-full rounded-lg bg-gray-800 ring-gray-900 ring-4 transition-all duration-100'>
         <img src={project.image} alt={`${project.title} screenshot`} className='w-full h-full object-fit rounded-lg'/>
       </figure>
-      <div className='space-y-2'>
-        <h4 className='font-bold text-purple-400'>{project.type}</h4>
+      <div className='space-y-2 md:w-5/12'>
+        <h4 className='font-bold text-purple-400 uppercase'>{project.type}</h4>
         <h2 className='text-2xl md:text-4xl font-bold text-white'>{project.title}</h2>
         <p className='text-slate-200 text-base md:text-xl'>{project.description[activeLanguage]}</p>
         <ul className='relative flex space-x-2.5'>

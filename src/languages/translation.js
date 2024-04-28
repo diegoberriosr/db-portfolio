@@ -14,9 +14,14 @@ export const TRANSLATIONS = {
         body : {
             projects : {
                 title: 'Proyectos',
+                subtitle : 'Algunos de mis proyectos más recientes',
+                all : 'Todos',
                 live : 'Visitar'
             },
-            skills : 'Habilidades',
+            skills : {
+                title : 'Habilidades',
+                all : 'Todas'
+            }
         },
         contact : 'Contáctame'
     },
@@ -30,9 +35,14 @@ export const TRANSLATIONS = {
         body : {
             projects : {
                 title: 'Projects',
+                subtitle: 'Some of my most recent projects',
+                all : 'All',
                 live : 'Live demo'
             },
-            skills : 'Skills',
+            skills : {
+                title : 'Skills',
+                all : 'All'
+            }
         },
         contact : 'Contact me'
     },
@@ -46,9 +56,14 @@ export const TRANSLATIONS = {
         body : {
             projects : {
                 title: 'Projekte',
+                subtitle : 'Mancher meiner neulichsten Projekte',
+                all : 'Alle',
                 live : 'Besuchen'
             },
-            skills : 'Fähigkeiten',
+            skills : {
+                title : 'Fähigkeiten',
+                all : 'Alle'
+            }
         },
         contact : 'Kotaktieren Sie mich'
     }
