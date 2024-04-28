@@ -1,3 +1,5 @@
+import { forwardRef } from "react";
+
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { MdOutlineContactPage } from "react-icons/md";
@@ -8,10 +10,10 @@ import ButtonLink from "./ButtonLink";
 
 
 
-const Header = ({headerTranslations}) => {
+const Header = forwardRef(({headerTranslations}, ref) => {
   return (
     <header className='w-full flex flex-col items-center  md:items-start md:flex-row md:justify-start px-5 pt-5 pb-16 border-b-2 border-gray-600 border-dotted  space-x-8'>
-      <figure className='rounded-full min-w-40 min-h-40 max-w-40 max-h-40 ring-8 ring-gray-900 shadow-xl bg-gray-600'>
+      <figure ref={ref} className='rounded-full min-w-40 min-h-40 max-w-40 max-h-40 ring-8 ring-gray-900 shadow-xl bg-gray-600'>
         <img src={Portrait} alt='duolingo style character' className='w-full h-full object fill rounded-full'/>
       </figure>
       <div className='w-full space-y-1.5 pt-5 md:pt-0 text-center sm:text-start md:pt-2.5 flex flex-col items-center justify-center md:block '>
@@ -34,6 +36,6 @@ const Header = ({headerTranslations}) => {
       </div>
     </header>
   )
-}
+})
 
 export default Header
