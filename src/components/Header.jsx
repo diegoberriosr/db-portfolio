@@ -24,11 +24,11 @@ const Header = forwardRef(({headerTranslations}, ref) => {
                 <FaGithub className='group-hover:rotate-[30deg] transition-all duration-300'/>
                 <span>Github</span>
             </ButtonLink>
-            <ButtonLink link='https://github.com/diegoberriosr' containerStyle='inline-flex items-center space-x-1.5 px-3 py-1.5 bg-sky-400 text-white rounded-lg group hover:opacity-90 border-sky-600 border-2 border-b-[4px] hover:border-b-[3.5px] active:border-b-0 transition-all duration-100'>
+            <ButtonLink link='https://www.linkedin.com/in/diego-berrios-332963261/' containerStyle='inline-flex items-center space-x-1.5 px-3 py-1.5 bg-sky-400 text-white rounded-lg group hover:opacity-90 border-sky-600 border-2 border-b-[4px] hover:border-b-[3.5px] active:border-b-0 transition-all duration-100'>
                 <FaLinkedin className='group-hover:rotate-[30deg] transition-all duration-300'/>
                 <span>LinkedIn</span>
             </ButtonLink>
-            <ButtonLink link='https://github.com/diegoberriosr' containerStyle='inline-flex items-center space-x-1.5 px-3 py-1.5 bg-purple-500 text-white rounded-lg group hover:opacity-90 border-purple-700 border-2 border-b-[4px] hover:border-b-[3.5px] active:border-b-0 transition-all duration-100'>
+            <ButtonLink link='https://drive.google.com/file/d/1Un5Oa1sUMbT3FCgGRPThXOXD4FcM9LQB/view?usp=sharing' containerStyle='inline-flex items-center space-x-1.5 px-3 py-1.5 bg-purple-500 text-white rounded-lg group hover:opacity-90 border-purple-700 border-2 border-b-[4px] hover:border-b-[3.5px] active:border-b-0 transition-all duration-100'>
                 <MdOutlineContactPage className='group-hover:rotate-[30deg] transition-all duration-300'/>
                 <span>{headerTranslations.cv}</span>
             </ButtonLink>
