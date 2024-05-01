@@ -8,7 +8,7 @@ const LanguageToggler = ({language, activeLanguage, setActiveLanguage}) => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className='relative flex flex-col items-end sm:items-center space-y-10 h-10' onMouseEnter={() => setIsOpen(true)} onMouseLeave={() => setIsOpen(false)}>
+    <div className='relative flex flex-col items-end sm:items-center space-y-10 h-10' onClick={() => setIsOpen(!isOpen)}onMouseEnter={() => setIsOpen(true)} onMouseLeave={() => setIsOpen(false)}>
       <figure className='ml-auto w-10 h-8'>
         <img src={activeLanguage.flag} alt='active language flag' className='w-full h-full object-fit'/>
       </figure>

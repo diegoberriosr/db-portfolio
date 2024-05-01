@@ -39,7 +39,7 @@ const BELLR = {
         icon : "https://devicon-website.vercel.app/api/amazonwebservices/original.svg"
       }      
     ],
-    liveDemo : 'sl;sdl;s',
+    liveDemo : 'https://bellr-alpha.vercel.app/home',
     githubRepo : 'https://github.com/diegoberriosr/Bellr'
 };
 
@@ -74,7 +74,7 @@ const VESTNIK = {
         icon : "https://devicon-website.vercel.app/api/amazonwebservices/original.svg"
       }
     ],
-    liveDemo : 'sl;sdl;s',
+    liveDemo : 'https://vestnik-phi.vercel.app/login',
     githubRepo : 'https://github.com/diegoberriosr/Vestnik'
 };
 

@@ -8,7 +8,8 @@ export const TRANSLATIONS = {
         flag : SpanishFlag,
         header : {
             title : 'Hola, soy Diego',
-            subtitle : 'Soy desarrollador web',
+            subtitle : 'Soy ',
+            descriptions : ['desarrollador web fullstack.', 'desarrollador de software.', 'ingeniero civil.'],
             cv : 'CV'
         },
         body : {
@@ -29,7 +30,8 @@ export const TRANSLATIONS = {
         flag : EnglishFlag,
         header : {
             title : "Hi, I'm Diego",
-            subtitle : "I'm a web developer",
+            subtitle : "I'm a ",
+            descriptions : ['fullstack web developer.', 'software developer.', 'civil engineer.', 'grad student.'],
             cv : 'Resume'
         },
         body : {
@@ -50,7 +52,8 @@ export const TRANSLATIONS = {
         flag : GermanFlag,
         header : {
             title : 'Hallo, ich bin Diego',
-            subtitle : 'Ich bin Web Entwickler',
+            subtitle : 'Ich bin ',
+            descriptions : ['Fullstack Web Entwickler.', 'Bauingenieur.', 'Masterstudent.'],
             cv : 'Lebenslauf'
         },
         body : {

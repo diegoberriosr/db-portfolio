@@ -27,7 +27,7 @@ const Project = ({activeLanguage, project, liveButtonTranslation}) => {
                     <FaGithub className='text-2xl'/>
                 </ButtonLink>
                 { project.liveDemo &&
-                <ButtonLink link='' containerStyle='px-3 py-1.5 flex items-center space-x-2.5 bg-white text-black font-bold hover:opacity-90 border-slate-400 border-2 border-b-[4px] hover:border-b-[3.5px] active:border-b-0 hover:space-x-5 rounded-lg group transition-all duration-300'>
+                <ButtonLink link={project.liveDemo} containerStyle='px-3 py-1.5 flex items-center space-x-2.5 bg-white text-black font-bold hover:opacity-90 border-slate-400 border-2 border-b-[4px] hover:border-b-[3.5px] active:border-b-0 hover:space-x-5 rounded-lg group transition-all duration-300'>
                     <span>
                       {liveButtonTranslation}
                     </span>
