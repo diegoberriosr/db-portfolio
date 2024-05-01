@@ -6,6 +6,7 @@ import { FaPython } from "react-icons/fa";
 import { SiDjango } from "react-icons/si";
 import { SiDart } from "react-icons/si";
 import { SiFlutter } from "react-icons/si";
+import { SiTailwindcss } from "react-icons/si";
 
 const BELLR = {
     type : 'Full-stack',
@@ -120,6 +121,12 @@ export const SKILLS = [
         icon: <FaCss3Alt/>,
         type : 'Front-end'
     },
+    {
+      title: 'Tailwind',
+      color : 'bg-sky-500 border-blue-700',
+      icon: <SiTailwindcss/>,
+      type : 'Front-end'
+  },
     {
         title: 'React',
         color : 'bg-sky-300 border-indigo-500',
