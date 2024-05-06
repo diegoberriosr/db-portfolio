@@ -9,7 +9,7 @@ import Contact from "./components/Contact";
 import { TRANSLATIONS } from './languages/translation';
 
 function App() {
-  const [activeLanguage, setActiveLanguage] = useState('english');
+  const [activeLanguage, setActiveLanguage] = useState( localStorage.getItem('language') ? localStorage.getItem('language') : 'english');
   const [isNavbarBelowHeader, setIsNavbarBelowHeader] = useState(false);
   const translation = TRANSLATIONS[activeLanguage];
 

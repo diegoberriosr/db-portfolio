@@ -1,7 +1,7 @@
 import { forwardRef } from "react";
 
 import LanguageToggler from "./LanguageToggler"
-import Portrait from '../languages/portrait.jpg';
+import Portrait from '../assets/portrait.jpg';
 
 const Navbar = forwardRef(({ language, activeLanguage, setActiveLanguage, isNavbarBelowHeader }, ref) => {
   return (

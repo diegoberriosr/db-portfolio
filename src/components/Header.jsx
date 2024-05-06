@@ -5,7 +5,7 @@ import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { MdOutlineContactPage } from "react-icons/md";
 
-import Portrait from '../languages/portrait.jpg'
+import Portrait from '../assets/portrait.jpg'
 
 import ButtonLink from "./ButtonLink";
 
@@ -17,7 +17,6 @@ const Header = forwardRef(({headerTranslations}, ref) => {
 
   // eslint-disable-next-line no-unused-vars
   const handleChangeColor = () => {
-    console.log('changing color');
     const index = COLORS.findIndex( color => color === currentColor);
     setCurrentColor(COLORS[(index + 1) % COLORS.length]);
   };
@@ -42,7 +41,7 @@ const Header = forwardRef(({headerTranslations}, ref) => {
                 <FaLinkedin className='group-hover:rotate-[30deg] transition-all duration-300'/>
                 <span>LinkedIn</span>
             </ButtonLink>
-            <ButtonLink link='https://drive.google.com/file/d/1Un5Oa1sUMbT3FCgGRPThXOXD4FcM9LQB/view?usp=sharing' containerStyle='inline-flex items-center space-x-1.5 px-3 py-1.5 bg-purple-500 text-white rounded-lg group hover:opacity-90 border-purple-700 border-2 border-b-[4px] hover:border-b-[3.5px] active:border-b-0 transition-all duration-100'>
+            <ButtonLink link='https://drive.google.com/file/d/1oo-IzVig4aX1oNcUKHgjnY3VgAocnpTF/view?usp=sharing' containerStyle='inline-flex items-center space-x-1.5 px-3 py-1.5 bg-purple-500 text-white rounded-lg group hover:opacity-90 border-purple-700 border-2 border-b-[4px] hover:border-b-[3.5px] active:border-b-0 transition-all duration-100'>
                 <MdOutlineContactPage className='group-hover:rotate-[30deg] transition-all duration-300'/>
                 <span>{headerTranslations.cv}</span>
             </ButtonLink>

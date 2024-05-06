@@ -8,6 +8,8 @@ import { SiDart } from "react-icons/si";
 import { SiFlutter } from "react-icons/si";
 import { SiTailwindcss } from "react-icons/si";
 
+import bellrImage from './assets/bellr.jpg';
+
 const BELLR = {
     type : 'Full-stack',
     title : 'Bellr',
@@ -16,7 +18,7 @@ const BELLR = {
       spanish : 'Un clon full-stack de Twitter.',
       german : 'Ein Twitter clone'
     },
-    image:'https://www.labnol.org/images/2023/110136.png',
+    image:bellrImage,
     technologies : [
       {
         title : 'Python',
