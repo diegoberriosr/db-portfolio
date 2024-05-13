@@ -8,7 +8,7 @@ const Project = ({activeLanguage, project, liveButtonTranslation}) => {
 
   return (
     <div className='w-full px-5 py-10 flex flex-col space-y-5 md:flex-row md:space-x-8 md:space-y-0 mt-10 md:mt-0 group'>
-      <figure className='w-full md:w-96 md:h-56 h-full rounded-lg bg-gray-800 ring-gray-900 ring-4 transition-all duration-100 hover:scale-110 transition-all duration-200'>
+      <figure className='w-full md:w-96 md:h-56 h-full rounded-lg bg-gray-800 ring-gray-900 ring-4 hover:scale-110 transition-all duration-200'>
         <img src={project.image} alt={`${project.title} screenshot`} className='w-full h-full object-fit rounded-lg'/>
       </figure>
       <div className='space-y-2 md:w-5/12'>

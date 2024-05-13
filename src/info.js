@@ -9,6 +9,8 @@ import { SiFlutter } from "react-icons/si";
 import { SiTailwindcss } from "react-icons/si";
 
 import bellrImage from './assets/bellr.jpg';
+import vestnikImage from './assets/vestnik.jpg';
+import bellrMobileImage from './assets/bellr_mobile.jpg';
 
 const BELLR = {
     type : 'Full-stack',
@@ -53,7 +55,7 @@ const VESTNIK = {
       spanish : 'App de chat en tiempo real.',
       german : 'Real-time Nachrichten App.'
     },
-    image:'https://www.labnol.org/images/2023/110136.png',
+    image:vestnikImage,
     technologies : [
       {
         title : 'Python',
@@ -84,11 +86,11 @@ const BELLR_MOBILE = {
     type : 'Mobile',
     title : 'Bellr Mobile',
     description : {
-      english : "Bellr's mobile version app.",
-      spanish : 'La versión mobile de Bellr.',
-      german : 'Bellrs mobile app.'
+      english : "Bellr's mobile version app (in progress).",
+      spanish : 'La versión mobile de Bellr (en desarrollo).',
+      german : 'Die mobile Anwendung von Bellr (wird entwickelt).'
     },
-    image:'https://www.labnol.org/images/2023/110136.png',
+    image:bellrMobileImage,
     technologies : [
       {
         title : 'Dart',
@@ -100,7 +102,8 @@ const BELLR_MOBILE = {
       }
     ],
     liveDemo : null,
-    githubRepo : 'https://github.com/diegoberriosr/Bellr-Mobile'
+    githubRepo : 'https://github.com/diegoberriosr/Bellr-Mobile',
+    unfinished: true,
 };
 
 
