@@ -4,13 +4,12 @@ import { FaCss3Alt } from "react-icons/fa6";
 import { FaReact } from "react-icons/fa";
 import { FaPython } from "react-icons/fa";
 import { SiDjango } from "react-icons/si";
-import { SiDart } from "react-icons/si";
-import { SiFlutter } from "react-icons/si";
+import { SiTypescript } from "react-icons/si";
 import { SiTailwindcss } from "react-icons/si";
 
 import bellrImage from './assets/bellr.jpg';
 import vestnikImage from './assets/vestnik.jpg';
-import bellrMobileImage from './assets/bellr_mobile.jpg';
+import pandalangImage from './assets/pandalang.jpg';
 
 const BELLR = {
     type : 'Full-stack',
@@ -18,7 +17,7 @@ const BELLR = {
     description : {
       english : 'A full-stack Twitter clone.',
       spanish : 'Un clon full-stack de Twitter.',
-      german : 'Ein Twitter clone'
+      german : 'Ein Twitter clone.'
     },
     image:bellrImage,
     technologies : [
@@ -82,27 +81,39 @@ const VESTNIK = {
     githubRepo : 'https://github.com/diegoberriosr/Vestnik'
 };
 
-const BELLR_MOBILE = {
-    type : 'Mobile',
-    title : 'Bellr Mobile',
+const PANDALANG = {
+    type : 'Full-stack',
+    title : 'Pandalang',
     description : {
-      english : "Bellr's mobile version app (in progress).",
-      spanish : 'La versión mobile de Bellr (en desarrollo).',
-      german : 'Die mobile Anwendung von Bellr (wird entwickelt).'
+      english : "A Duolingo-like language learning app.",
+      spanish : 'App de aprendizaje de idiomas (estilo Duolingo).',
+      german : 'Anwendung zum Sprachlernen (wie Duolingo).'
     },
-    image:bellrMobileImage,
+    image:pandalangImage,
     technologies : [
       {
-        title : 'Dart',
-        icon : "https://devicon-website.vercel.app/api/dart/original.svg"
+        title : 'Python',
+        icon : "https://devicon-website.vercel.app/api/python/original.svg"
       },
       {
-        title : 'Flutter',
-        icon : "https://devicon-website.vercel.app/api/flutter/original.svg"
-      }
+        title : 'Django',
+        icon : "https://devicon-website.vercel.app/api/django/plain.svg"
+      },
+      {
+        title : 'Typescript',
+        icon : "https://devicon-website.vercel.app/api/typescript/original.svg"
+      },
+      {
+        title : 'React',
+        icon : "https://devicon-website.vercel.app/api/react/original.svg"
+      },
+      {
+        title : 'Tailwind',
+        icon : "https://devicon-website.vercel.app/api/tailwindcss/plain.svg"
+      },
     ],
     liveDemo : null,
-    githubRepo : 'https://github.com/diegoberriosr/Bellr-Mobile',
+    githubRepo : 'https://github.com/diegoberriosr/Pandalang',
     unfinished: true,
 };
 
@@ -113,6 +124,12 @@ export const SKILLS = [
       color: 'bg-yellow-500 border-yellow-700',
       icon: <IoLogoJavascript/>,
       type : 'Front-end'
+    },
+    {
+      title: 'Typescript',
+      color : 'bg-blue-500 border-blue-700',
+      icon: <SiTypescript/>,
+      type :'Front-end'
     },
     {
       title: 'HTML',
@@ -149,18 +166,6 @@ export const SKILLS = [
         color : 'bg-green-700 border-green-900',
         icon: <SiDjango/>,
         type : 'Back-end'
-      },
-      {
-        title: 'Dart',
-        color : 'bg-teal-500 border-teal-700',
-        icon: <SiDart/>,
-        type :'Mobile'
-      },
-      {
-        title: 'Flutter',
-        color : 'bg-sky-500 border-sky-700',
-        icon: <SiFlutter/>,
-        type : 'Mobile'
-      },
+      }
 ]
-export const PROJECTS = [BELLR, VESTNIK, BELLR_MOBILE]
+export const PROJECTS = [PANDALANG, BELLR, VESTNIK]
